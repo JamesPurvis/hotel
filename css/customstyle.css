@@ -21,6 +21,43 @@ nav {
     content: "|";
 }
 
-#signin::after {
 
+ #calendar {
+    color: rgb(52, 183, 255);
+}
+
+#rule {
+    border-left: 2px solid rgba(52, 183, 255);
+    height: 50px;
+}
+
+#guest {
+    color: rgba(52, 183, 255);
+    border-color: rgba(52, 183, 255);
+}
+
+#go {
+    color: rgba(52, 183, 255);
+    border-color: rgba(52, 183, 255);
+}
+
+#special {
+    color: rgba(52, 183, 255);
+    border-color: rgba(52, 183, 255);
+}
+
+th {
+    padding-right: 100%;
+}
+
+.blue-background {
+    background-color: rgba(52, 183, 255);
+}
+
+
+@media (max-width: 575px) {
+    .btn-block-xs {
+        display: block;
+        width: 100%;
+    }
 }

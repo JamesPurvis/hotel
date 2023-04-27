@@ -43,26 +43,52 @@
           </ul>
         </div>
       </nav>
-      
-      <div class="container">
-        <div class="row pt-3 align-items-center">
-          <div class="col-auto p-0">
-            <p class="fw-bold m-0 p-0">Where to&nbsp;</p>
-          </div>
-          <div class="col-auto p-0">
-            <p class="fw-lighter m-0">(Required)</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="container">
+
+      <div class="container pt-3 pb-3">
         <div class="row">
-          <div class="col-4 p-0">
-            <input type="text" class="form-control" id="cityStateZip" placeholder="City, state, location or airport">
-          </div>
+            <div class="col-xxl-4 col-md-12">
+                <p class="fw-bold">Where to? <span class="text-muted fw-light">(<span class="fw-normal">Required</span>)</span></p>
+                <input type="text" class="form-control" placeholder="City, state, location or airport."/>
+            </div>
+            <div class="col-md-12 col-xxl-8 pt-md-3 pt-sm-3 pt-xxl-0">
+                <p class="fw-bold">When? <span class="text-muted fw-light">(<span class="fw-normal">Optional</span>)</span></p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
+                        <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
+                        <p class="fw-bold fs-6 m-0 p-0">Check-in</p>
+                        <p class="fw-lighter p-0">Add dates</p>
+                      </div>
+                      <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
+                        <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
+                    </div>
+                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
+                        <p class="fw-bold fs-6 m-0 p-0">Check-out</p>
+                        <p class="fw-lighter p-0">Add dates</p>
+                      </div>
+                      <div class="col-sm-12 col-lg-auto">
+                        <button id="guest" class="mb-3d-block w-100 w-md-auto btn btn-outline-primary mb-2">1 Room, 1 Guest</button>
+                      </div>
+                      <div class=" col-sm-12 col-lg-auto">
+                        <button id="special" class="w-100 w-md-auto btn btn-outline-primary mb-2">Special Rates</button>
+                      </div>
+                      <div class="col-sm-12 col-lg-auto">
+                        <button id="go" class="w-100 w-md-auto btn btn-outline-primary mb-2">Find a Hotel</button>
+                      </div>
+                </div>
+            </div>
         </div>
       </div>
-      
+
+      <div class="container-fluid blue-background">
+        <div class="row">
+        <div class="col-12">
+        <h1 class="fw-light text-white ms-4">Earn 2x points on all stays, plus 1k bonus points each time you stay at a hotel brand!</h1>
+        </div>
+        </div>
+      </div>
+
   
 </body>
 <script src="js/bootstrap.bundle.js"></script>
