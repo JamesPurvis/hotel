@@ -1,96 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/customstyle.css"/>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/customstyle.css"/>
+        
 
-    <title>Hotel Brand ~ Home</title>
-</head>
-<body>
-    <nav class="nav navbar-expand-sm bg-light navbar-light">
-        <p class="ms-5 mt-3 navbar-brand me-5">Hotel</p>
-        <div class="collapse navbar-collapse" id="navbar-nav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="#" class="fw-bolder nav-link active pe-2">Locations</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="fw-bolder nav-link active pe-2">Offers</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="fw-bolder nav-link active pe-2">Meetings & Events</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="fw-bolder nav-link active pe-2">Credit Cards</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav col d-flex justify-content-end">
-            <li class="nav-item">
-              <a id="join" href="#" class="fw-lighter nav-link pe-2">Join</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="fw-lighter nav-link">Sign in</a>
-            </li>
-            <li class="nav-item">
-              <span class="nav-link">
-                <i href="#" class="fas fa-user-circle fa-lg"></i>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="container pt-3 pb-3">
-        <div class="row">
-            <div class="col-xxl-4 col-md-12">
-                <p class="fw-bold">Where to? <span class="text-muted fw-light">(<span class="fw-normal">Required</span>)</span></p>
-                <input type="text" class="form-control" placeholder="City, state, location or airport."/>
+        <title>Hotel Brand ~ Home</title>
+    </head>
+    <body>
+        <nav class="nav navbar-expand-md bg-light navbar-light">
+            <p class="ms-5 mt-3 navbar-brand me-5">Hotel</p>
+            <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbar-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a href="#" class="fw-bolder nav-link active pe-2">Locations</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="fw-bolder nav-link active pe-2">Offers</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="fw-bolder nav-link active pe-2">Meetings & Events</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="fw-bolder nav-link active pe-2">Credit Cards</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav col d-flex justify-content-end">
+                <li class="nav-item">
+                <a id="join" href="#" class="fw-lighter nav-link pe-2">Join</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="fw-lighter nav-link">Sign in</a>
+                </li>
+                <li class="nav-item">
+                <span class="nav-link">
+                    <i href="#" class="fas fa-user-circle fa-lg"></i>
+                </span>
+                </li>
+            </ul>
             </div>
-            <div class="col-md-12 col-xxl-8 pt-md-3 pt-sm-3 pt-xxl-0">
-                <p class="fw-bold">When? <span class="text-muted fw-light">(<span class="fw-normal">Optional</span>)</span></p>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
-                        <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
+        </nav>
+
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-xxl-4 col-md-12">
+                    <p class="fw-bold">Where to? <span class="text-muted fw-light">(<span class="fw-normal">Required</span>)</span></p>
+                    <input type="text" class="form-control" placeholder="City, state, location or airport."/>
+                </div>
+                <div class="col-md-12 col-xxl-8 pt-md-3 pt-sm-3 pt-xxl-0">
+                    <p class="fw-bold">When? <span class="text-muted fw-light">(<span class="fw-normal">Optional</span>)</span></p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
+                            <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
+                            <p class="fw-bold fs-6 m-0 p-0">Check-in</p>
+                            <p class="fw-lighter p-0">Add dates</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
+                            <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
+                            <p class="fw-bold fs-6 m-0 p-0">Check-out</p>
+                            <p class="fw-lighter p-0">Add dates</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-auto">
+                            <button id="guest" class="mb-3d-block w-100 w-md-auto btn btn-outline-primary mb-2">1 Room, 1 Guest</button>
+                        </div>
+                        <div class=" col-sm-12 col-lg-auto">
+                            <button id="special" class="w-100 w-md-auto btn btn-outline-primary mb-2">Special Rates</button>
+                        </div>
+                        <div class="col-sm-12 col-lg-auto">
+                            <button id="go" class="w-100 w-md-auto btn btn-outline-primary mb-2">Find a Hotel</button>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
-                        <p class="fw-bold fs-6 m-0 p-0">Check-in</p>
-                        <p class="fw-lighter p-0">Add dates</p>
-                      </div>
-                      <div class="col-xs-12 col-sm-1 col-md-1 col-lg-auto">
-                        <i id="calendar" class="fas fa-calendar fa-2x p-0 m-0"></i>
-                    </div>
-                      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-auto">
-                        <p class="fw-bold fs-6 m-0 p-0">Check-out</p>
-                        <p class="fw-lighter p-0">Add dates</p>
-                      </div>
-                      <div class="col-sm-12 col-lg-auto">
-                        <button id="guest" class="mb-3d-block w-100 w-md-auto btn btn-outline-primary mb-2">1 Room, 1 Guest</button>
-                      </div>
-                      <div class=" col-sm-12 col-lg-auto">
-                        <button id="special" class="w-100 w-md-auto btn btn-outline-primary mb-2">Special Rates</button>
-                      </div>
-                      <div class="col-sm-12 col-lg-auto">
-                        <button id="go" class="w-100 w-md-auto btn btn-outline-primary mb-2">Find a Hotel</button>
-                      </div>
                 </div>
             </div>
         </div>
-      </div>
 
-      <div class="container-fluid blue-background">
+        <div class="container-fluid blue-background">
+            <div class="row">
+            <div class="col-12">
+            <h1 class="fw-light text-white ms-4">Earn 2x points on all stays, plus 1k bonus points each time you stay at a hotel brand!</h1>
+            </div>
+            </div>
+        </div>
+
+        <div class="container pb-3">
         <div class="row">
         <div class="col-12">
-        <h1 class="fw-light text-white ms-4">Earn 2x points on all stays, plus 1k bonus points each time you stay at a hotel brand!</h1>
-        </div>
-        </div>
-      </div>
+        <div id="carousel-box">
+        <div id="carouselShow" class="pt-5 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/city.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>Let's go on an adventure!</h6>
+                    <p>Book a trip today!</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/mountain.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>It is what it is!</h1>
+                    <p>Spend that money!</p>
+                    <a href="#" class="btn btn-primary">Book a trip!</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/pool.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1>I wouldn't mind it</h1>
+                    <p>Get extra bonus points</p>
+                    <a href="#" class="btn btn-primary">Join our honors program</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselShow" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselShow" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
 
-  
+          <div class="container text-center pb-5">
+            <h1 id="summer" class="text-center pt-3 fw-bold">Ready, set, summer!</h1>
+            <p class="fw-medium text-center">It's time to get inspired and plan the ultimate summer stay.  </p>
+            <a id="plan" href="#" class="btn btn-primary text-nowrap">Plan your Stay</a>
+          </div>
+
+          <div class="pt-5 container justify-content-start">
+            <h1 id="summer" class="pt-3 fw-bold">Make the most of summertime</h1>
+            <p class="fs-5 fw-light">There's still time to save on your summer stay.</p>
+          </div>
+          
+
+    
 </body>
 <script src="js/bootstrap.bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
 <script src="https://kit.fontawesome.com/865408320e.js" crossorigin="anonymous"></script>
 </html>
