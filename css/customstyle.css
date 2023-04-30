@@ -146,7 +146,19 @@ th {
   .grid-pic:hover .text-overlay {
     opacity: 1;
   }
-  
+
+  .tiny-grid {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .tiny-grid img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  }
   
 
 
