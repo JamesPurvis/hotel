@@ -173,6 +173,19 @@ th {
   max-width: 100%;
   }
 
+  .card-long {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .card-long img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+  }
+
   .my-img-overlay {
     position: absolute;
     top: 0;
@@ -202,7 +215,16 @@ th {
   .card-thing:hover .my-img-overlay {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
+
+  .text-body {
+    position: relative;
+    height: 31vh;
+  }
+
+  .text-body a {
+    position: absolute;
+    bottom: 0;
+  }
 
 
 
