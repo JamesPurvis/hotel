@@ -216,15 +216,41 @@ th {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .text-body {
+  /* .text-body {
     position: relative;
-    height: 31vh;
-  }
+    height: 37vh;
+  } 
+
 
   .text-body a {
     position: absolute;
     bottom: 0;
+  } */
+
+
+  /* .text-body a {
+    margin-top: auto;
+  } */
+  
+
+  #signin::after {
+    color: black;
+    content: "|";
   }
+
+ /* @media only screen and (min-width: 1024px) {
+    .text-body {
+      position: relative;
+      height: 40vh;
+    }
+
+    .text-body a {
+      position: absolute;
+      bottom: 0;
+    }
+  } /*
+  
+  
 
 
 
